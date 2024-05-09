@@ -2,15 +2,28 @@ import React, { useState } from "react";
 
 const App = () => {
   // let counter = 10;
-  let [count, setCount] = useState(10);
+  const [count, setCount] = useState(10);
 
   function handleMinus() {
     if (count <= 0) return setCount(0)
-    return setCount(count - 1);
+    setCount(count - 1);
   }
 
   function handlePlus() {
-    return setCount(count + 1);
+
+    // setCount(count + 1);
+    // setCount(count + 1);
+    // setCount(count + 1);
+    // setCount(count + 1);
+    // What will bee the output? 11 / 12 / 13 / 14
+    // So setCount (prevCount => prevCount + 1);
+    // setCount (prevCount => prevCount + 1);
+    // setCount (prevCount => prevCount + 1);
+    // setCount (prevCount => prevCount + 1);
+    // setCount (prevCount => prevCount + 1);
+    // kinaki useState() hook ko dispatcher func ma hidden callback func hunxa tesma hamle previous State ko value tanera tesma increment garnxa milxa. So, ANS ----> 14
+
+    setCount(count + 1);
   }
 
   return (
