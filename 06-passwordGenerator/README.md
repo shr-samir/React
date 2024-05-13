@@ -1,0 +1,3 @@
+# Password Generator
+
+### Pseudo Code 
