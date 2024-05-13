@@ -21,6 +21,6 @@
 - But child le props access garna paunu parene ho...  tesko lagi chai hamle setBgColor lai ni as a prop nai pass garxau
 
 
-- In React, props are typically passed from a parent component to a child component.  Child components cannot directly modify the props passed to them. Instead, if a child component needs to update the data or trigger an action in the parent component, it can do so by invoking a callback function passed as a prop from the parent. React provides other mechanisms for managing and sharing state between components, such as using React's Context API or state management libraries like Redux. These approaches allow for more complex data flows and can enable communication between components that are not directly related in the parent-child hierarchy.
+- In React, props are typically passed from a parent component to a child component.  Child components cannot directly modify the props passed to them. Instead, if a child component needs to update the data or trigger an action in the parent component, it can do so by invoking a callback function passed as a prop from the parent. React provides other mechanisms for managing and sharing state between components, such as using React's Context API or state management libraries like Redux. These approaches allow for more complex data flows and can enable communication between components tha t are not directly related in the parent-child hierarchy.
 
 
