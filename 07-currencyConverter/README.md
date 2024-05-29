@@ -1,8 +1,11 @@
-# React + Vite
+# Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### components
+- components banauda main yaad garne kura chai kun-kun kura chai reuse garda change hunxa ra tyo kura onChange garda k hunxa
+- tiniharu lai chai as props pass garne
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### custom hooks
+- yo pasi useState(), useEffect() jastai gari banaune to maintain standard + hooks ho vanera yetikai chinos.
+- at the end of day, hooks vanya ni function nai ho jasle khi kura return garxa
+- use garna lai simple function call garne
